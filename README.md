@@ -39,4 +39,4 @@ FastAPI 서버 (Render)  →  메모 목록 (서버 메모리)
 | 개인 소개 페이지 | https://memo-frontend-assignment.vercel.app/intro.html |
 | 백엔드 Swagger UI | https://memo-backend-assignment.onrender.com/docs |
 
-> Render 무료 플랜은 한동안 접속이 없으면 서버가 잠들어, 첫 요청에 30~60초가 걸릴 수 있습니다. 이때 인메모리로 저장한 메모는 초기화되어 안내용 기본 메모 1개만 남으며, 오류가 아닙니다.
+> Render 무료 플랜은 한동안 접속이 없으면 서버가 잠들어, 첫 요청에 30~60초가 걸릴 수 있습니다. 이때 인메모리로 저장한 메모는 초기화되어 `[default 기본 메모]` 1개만 남으며, 오류가 아닙니다.
