@@ -36,18 +36,10 @@ FastAPI 서버 (Render)  →  메모 목록 (서버 메모리)
 
 | 항목 | 주소 |
 |---|---|
-| GitHub 저장소 | https://github.com/TaHHyy/memo-frontend-assignment |
+| GitHub 저장소 (프론트엔드) | https://github.com/TaHHyy/memo-frontend-assignment |
+| GitHub 저장소 (백엔드) | https://github.com/TaHHyy/memo-backend-assignment |
 | Vercel 배포 페이지 | https://memo-frontend-assignment.vercel.app |
 | 개인 소개 페이지 | https://memo-frontend-assignment.vercel.app/intro.html |
 | 백엔드 Swagger UI | https://memo-backend-assignment.onrender.com/docs |
 
 > Render 무료 플랜은 한동안 접속이 없으면 서버가 잠들어, 첫 요청에 30~60초가 걸릴 수 있습니다. 이때 인메모리로 저장한 메모는 초기화되며, 오류가 아닙니다.
-
-## 로컬 실행 방법
-
-```bash
-npm install
-npm run dev        # http://localhost:5173
-```
-
-백엔드 주소는 환경변수 `VITE_API_URL`로 지정합니다. 없으면 `http://localhost:8000`을 사용합니다.
