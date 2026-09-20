@@ -6,7 +6,12 @@ KAIST 클라우드컴퓨팅실습 개인과제입니다. 개인 소개 페이지
 
 - **개인 소개 페이지**: HTML/CSS/JavaScript로 작성한 소개 페이지입니다.
 - **연동 실습 페이지(메모장)**: 메모를 입력하면 브라우저가 백엔드 API를 호출해 서버에 저장하고, 목록을 다시 받아 화면에 보여줍니다.
-- 두 페이지는 서로 링크로 이동할 수 있습니다. (메모장 첫 화면 → 소개 페이지, 소개 페이지 → 메모장)
+- 사이트 기본 주소로 접속하면 연동 실습 페이지(메모장)가 먼저 뜨고, 두 페이지는 서로 링크로 이동할 수 있습니다.
+
+| 경로 | 페이지 | 다른 페이지로 이동 |
+|---|---|---|
+| `/` (기본 주소) | 연동 실습 페이지(메모장): 화면에서 백엔드 API를 호출해 메모를 저장·조회·삭제 | 상단의 "개인 소개 페이지 보기" 링크 → `/intro.html` |
+| `/intro.html` | 개인 소개 페이지 | 하단의 "메모 연동 실습 페이지로 이동" 버튼 → `/` |
 
 ## 주요 구성
 
@@ -32,9 +37,9 @@ FastAPI 서버 (Render)  →  메모 목록 (서버 메모리)
 | 항목 | 주소 |
 |---|---|
 | GitHub 저장소 | https://github.com/TaHHyy/memo-frontend-assignment |
-| Vercel 배포 페이지 | (배포 후 입력) |
-| 개인 소개 페이지 | (Vercel 주소)/intro.html |
-| 백엔드 Swagger UI | (배포 후 입력)/docs |
+| Vercel 배포 페이지 | https://memo-frontend-assignment.vercel.app |
+| 개인 소개 페이지 | https://memo-frontend-assignment.vercel.app/intro.html |
+| 백엔드 Swagger UI | https://memo-backend-assignment.onrender.com/docs |
 
 > Render 무료 플랜은 한동안 접속이 없으면 서버가 잠들어, 첫 요청에 30~60초가 걸릴 수 있습니다. 이때 인메모리로 저장한 메모는 초기화되며, 오류가 아닙니다.
 
