@@ -22,9 +22,6 @@ KAIST 클라우드컴퓨팅실습 개인과제입니다. 개인 소개 페이지
 | 백엔드 | FastAPI, 메모 조회·생성·삭제 API (인메모리 저장) | Render |
 | 소스 코드·문서 | 프론트 / 백엔드 저장소, README.md | GitHub |
 
-- 프론트엔드 저장소: 이 저장소 (`memo-frontend-assignment`)
-- 백엔드 저장소: https://github.com/TaHHyy/memo-backend-assignment
-
 ```
 브라우저 (Vercel의 React 화면)
    │  fetch (HTTP + JSON)
